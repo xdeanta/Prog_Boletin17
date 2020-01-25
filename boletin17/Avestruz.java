@@ -9,11 +9,6 @@ package boletin17;
  *
  * @author xavier
  */
-public class Gato extends Felino implements IPuedeNadar{
-    private int metros;
-    @Override
-    public void nadar(){
-        metros++;
-        System.out.println("Desplazamiento: " + metros);
-    }
+public class Avestruz extends Ave{
+    
 }

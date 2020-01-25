@@ -9,6 +9,10 @@ package boletin17;
  *
  * @author xavier
  */
-public class Papagayo extends Ave{
-    
+public class Papagayo extends Ave implements IPuedeVolar{
+    private int metrosv;
+    @Override
+    public void volar(){
+        System.out.println("Metros volados: " + metrosv);
+    }
 }

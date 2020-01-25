@@ -9,6 +9,10 @@ package boletin17;
  *
  * @author xavier
  */
-public class Murcielago extends Mamifero{
-    
+public class Murcielago extends Mamifero implements IPuedeVolar{
+    private int metrosv;
+    @Override
+    public void volar(){
+        System.out.println("Metros volados: " + metrosv);
+    }
 }

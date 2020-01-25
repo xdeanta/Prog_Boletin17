@@ -16,10 +16,28 @@ public class Boletin17 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Gato m;
-        m=new Gato();
-        m.caminar();
-        m.nadar();
+        Felino f1, f2;
+        Ave av, a1;
+        /*Papagayo av;
+        Avestruz a1;*/
+        Papagayo p;
+        f1=new Gato();
+        System.out.println(f1.toString());
+        f1.caminar();
+        f1.nadar();
+        
+        f2=new Tigre();
+        System.out.println(f2.toString());
+        f2.caminar();
+        f2.nadar();
+        
+        av=new Papagayo();
+        a1=new Avestruz();
+        System.out.println(a1.toString());
+        a1.caminar();
+        System.out.println(av.toString());
+        ((Papagayo)av).volar();
+        av.caminar();
     }
     
 }

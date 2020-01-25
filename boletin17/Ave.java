@@ -9,6 +9,10 @@ package boletin17;
  *
  * @author xavier
  */
-public abstract class Ave {
-    
+public abstract class Ave implements IPuedeCaminar{
+    protected int metros;
+    @Override
+    public void caminar(){
+        System.out.println("Metros Caminados: " + metros);
+    }
 }

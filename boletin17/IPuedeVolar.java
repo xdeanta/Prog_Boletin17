@@ -9,6 +9,6 @@ package boletin17;
  *
  * @author xavier
  */
-public class Gato extends Felino{
-    
+public interface IPuedeVolar {
+    void volar();
 }
